@@ -18,10 +18,11 @@ const Page = () => {
           </div>
           <div className="card-inside">
             <div className="text-one">You Are My </div>
+            <div className="heart"></div>
             <div className="smile"></div>
             <div className="eyes"></div>
             <div className="btn">
-              <button className="yes-btn btn">Accept</button>
+             <a href="https://stellular-lolly-13bd77.netlify.app/"> <button className="yes-btn btn">Accept</button></a> 
               <button className="no-btn btn" onClick={handler}>
                 Not Accept
               </button>
